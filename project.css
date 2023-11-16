@@ -71,8 +71,9 @@ h2 {
     display: flex;
     justify-content: center;
 }
-.deixarcomentario_txt {
-    color: red;
+
+.deixarcomentario_txt:hover {
+    color: #fb6a3d;
 }
 .projeto_txt {
     color: #fb6a3d;
