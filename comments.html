@@ -11,7 +11,7 @@
 <body class="container">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/script.js"></script>
 
     <div class="container">
     
@@ -31,14 +31,30 @@
     
         <main>
             <h1 class="deixeseucomentario_txt">Deixe o seu comentário para ajudar:</h1>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Nome:</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Insira o que você quiser:</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
+            <div class="d-flex">
+                <form id="formulario" class="rounded-2 bg-black p-5 w-100">
+                    <div class="mb-3">
+                       <label for="imputName" class="form-label">Nome:</label>
+                       <input type="text" class="form-control" id="imputName" placeholder="Seu nome" required>
+                    </div>
+
+                    <div class="mb-3">
+                       <label for="imputText" class="form-label">Insira o seu comentário:</label>
+                       <textarea class="form-control" id="imputText" placeholder="Seu comentário..." required></textarea>
+                    </div>
+
+                    <div class="d-flex">
+                       <button type="submit" class="btn btn-primary px-2">Comentar</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="d-flex">
+                <div class="rounded-2 bg-dark p-3 w-100 mt-5" id="commentPost">
+                    <h5 class="text-center mb-3">Comentários</h5>
+                    
+                </div>
+            </div>
         </main>
 
         <footer>

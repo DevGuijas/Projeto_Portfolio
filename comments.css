@@ -73,10 +73,12 @@ h2 {
 }
 bottom_comment {
     text-align: center;
+    display: flex;
 }
 .deixeseucomentario_txt {
     display: flex;
     font-weight: bold;
     padding: 20px;
     font-size: 30px;
+    display: flex;
 }
