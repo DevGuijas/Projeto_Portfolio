@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     function createCommentElement(comment) {
         let p = document.createElement('p');
-        p.classList = 'p-2 d-flex text-wrap';
+        p.classList = 'p-2 d-flex text-wrap flex-warp';
         p.innerHTML = `<strong>${comment.name}: </strong> &nbsp ${comment.text}`;
         return p;
     }

@@ -74,3 +74,17 @@ h2 {
 .sobremim_txt {
     color: #fb6a3d;
 }
+
+.formacoes {
+    display: flex;
+}
+
+.certificados {
+    display: flex;
+    padding-bottom: 3px;
+    color: #cee879;
+}
+
+.certificados:hover {
+    color: #fb6a3d;
+}

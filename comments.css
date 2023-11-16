@@ -71,7 +71,7 @@ h2 {
     display: flex;
     justify-content: center;
 }
-bottom_comment {
+.bottom_comment {
     text-align: center;
     display: flex;
 }
@@ -80,5 +80,9 @@ bottom_comment {
     font-weight: bold;
     padding: 20px;
     font-size: 30px;
+    display: flex;
+}
+
+.coments {
     display: flex;
 }
